@@ -11859,9 +11859,20 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-section {
-  margin-top: 5rem !important;
-  margin-bottom: 14rem !important;
+section:first-of-type {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  position: relative;
+}
+
+.icon-container {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 /*# sourceMappingURL=custom.css.map */
