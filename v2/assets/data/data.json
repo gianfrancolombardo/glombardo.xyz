@@ -1,35 +1,34 @@
 [
   {
     "name": "TuHuella NuestraHuella",
-    "desc": "Calcula cómo afectan cada una de tus acciones a tu huella de carbono.",
+    "desc": "Calculate how each of your actions affects your carbon footprint.",
     "image": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/08/22/5a0295a9-8a07-458c-ae50-91c42cdc897b_shotsnapp-1650965089.png",
     "url": "https://tuhuella-nuestrahuella.glombardo.xyz/",
     "post": null,
-    "tags": ["Impacto Social", "Huella de carbono", "Angular", "Firebase"]
+    "tags": ["Social Impact", "Carbon Footprint", "Angular", "Firebase"]
   },
   {
     "name": "Tribuntu.org",
-    "desc": "ONG que busca brindarle una plataforma tecnologica para recibir donaciones a otras ONGs.",
+    "desc": "NGO that aims to provide a technological platform for receiving donations to other NGOs.",
     "image": "https://media-asgard.s3.eu-west-1.amazonaws.com/23/11/13/b66ac2fc-5761-466d-ad4a-ea03968f80cb_sobre-nosotros---tri.jpg",
     "url": "https://tribuntu.org/",
     "post": null,
-    "tags": ["Impacto Social", "ONGs", "PHP", "Wordpress"]
+    "tags": ["Social Impact", "NGOs", "PHP", "Wordpress"]
   },
   {
     "name": "Criaturas Magicas Reales",
-    "desc": "Proyecto fusiona IA generativas para crear criaturas mágicas fotorrealistas desde descripciones literarias.",
+    "desc": "Project that merges generative AI to create photorealistic magical creatures from literary descriptions.",
     "image": "https://placehold.co/600x400",
     "url": "https://glombardo.notion.site/Criaturas-M-gicas-Reales-f4cc86fa985a4f29a4dd19a432c9df6a",
     "post": null,
     "tags": ["Experimental", "LLM", "Text-to-image", "LangChain"]
   },
   {
-    "name": "Análisis fundamental con un clic",
-    "desc": "Plataforma para realizar análisis fundamental de empresas de manera rápida y sencilla.",
+    "name": "Fundamental Analysis with One Click",
+    "desc": "Platform for quickly and easily conducting fundamental analysis of companies.",
     "image": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/08/22/a54b8b43-454b-4471-b8ac-37f4ae5d47bd_shotsnapp-1650900958.png",
     "url": "https://fast-fundamental-analysis.web.app/",
     "post": "https://www.linkedin.com/pulse/an%C3%A1lisis-fundamental-con-un-clic-gianfranco-lombardo/",
-    "tags": ["Inversiones", "Finansas personales", "Angular", "Firebase"]
+    "tags": ["Investments", "Personal Finance", "Angular", "Firebase"]
   }
 ]
-  
