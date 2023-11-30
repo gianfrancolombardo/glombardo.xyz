@@ -1,0 +1,27 @@
+/* Agrega estilos personalizados aquí */
+
+body {
+    padding-top: 56px;
+    font-family: 'Courier New', monospace;
+}
+
+.container {
+    max-width: 800px; /* Ajusta según tus preferencias */
+}
+
+#informacion-personal {
+    padding: 80px 0;
+}
+
+#informacion-personal img {
+    margin: 0 auto; /* Centrar la imagen */
+    max-height: 200px; /* Ajusta según tus preferencias */
+}
+
+#informacion-personal .col-md-8 {
+    text-align: left;
+}
+
+#proyectos .card {
+    margin-bottom: 20px;
+}
