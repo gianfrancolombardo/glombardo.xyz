@@ -11868,6 +11868,10 @@ section:first-of-type {
   position: relative;
 }
 
+h1, .h1 {
+  white-space: nowrap;
+}
+
 .icon-container {
   position: absolute;
   bottom: 10px;
