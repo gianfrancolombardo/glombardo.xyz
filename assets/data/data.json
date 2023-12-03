@@ -1,0 +1,34 @@
+[
+  {
+    "name": "TuHuella NuestraHuella",
+    "desc": "Calculate how each of your actions affects your carbon footprint.",
+    "image": "assets/img/huella.png",
+    "url": "https://tuhuella-nuestrahuella.glombardo.xyz/",
+    "post": null,
+    "tags": ["Social Impact", "Carbon Footprint", "Angular", "Firebase"]
+  },
+  {
+    "name": "Tribuntu.org",
+    "desc": "NGO that aims to provide a technological platform for receiving donations to other NGOs.",
+    "image": "assets/img/tribuntu.png",
+    "url": "https://tribuntu.org/",
+    "post": null,
+    "tags": ["Social Impact", "NGOs", "PHP", "Wordpress"]
+  },
+  {
+    "name": "Criaturas Magicas Reales",
+    "desc": "Project that merges generative AI to create photorealistic magical creatures from literary descriptions.",
+    "image": "assets/img/criaturas.png",
+    "url": "https://glombardo.notion.site/Criaturas-M-gicas-Reales-f4cc86fa985a4f29a4dd19a432c9df6a",
+    "post": null,
+    "tags": ["Experimental", "LLM", "Text-to-image", "LangChain"]
+  },
+  {
+    "name": "Fundamental Analysis with One Click",
+    "desc": "Platform for quickly and easily conducting fundamental analysis of companies.",
+    "image": "assets/img/fast.png",
+    "url": "https://fast-fundamental-analysis.web.app/",
+    "post": "https://www.linkedin.com/pulse/an%C3%A1lisis-fundamental-con-un-clic-gianfranco-lombardo/",
+    "tags": ["Investments", "Personal Finance", "Angular", "Firebase"]
+  }
+]
