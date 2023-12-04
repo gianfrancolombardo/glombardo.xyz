@@ -1,6 +1,9 @@
+# Porfolio
+
+
 ### Información Personal
 - **Nombre:** Gianfranco Lombardo
-- **Título Profesional:** Software Engineer | IA Engineer | Data Scientist
+- **Título Profesional:** Software Engineer | IA Engineer
 - **Teléfono:** (+34) 622 222 725
 - **Correo Electrónico:** gianf.lombardo@gmail.com
 

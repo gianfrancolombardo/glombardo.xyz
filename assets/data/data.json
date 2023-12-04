@@ -1,34 +1,88 @@
-[
-  {
-    "name": "TuHuella NuestraHuella",
-    "desc": "Calculate how each of your actions affects your carbon footprint.",
-    "image": "assets/img/huella.png",
-    "url": "https://tuhuella-nuestrahuella.glombardo.xyz/",
-    "post": null,
-    "tags": ["Social Impact", "Carbon Footprint", "Angular", "Firebase"]
-  },
-  {
-    "name": "Tribuntu.org",
-    "desc": "NGO that aims to provide a technological platform for receiving donations to other NGOs.",
-    "image": "assets/img/tribuntu.png",
-    "url": "https://tribuntu.org/",
-    "post": null,
-    "tags": ["Social Impact", "NGOs", "PHP", "Wordpress"]
-  },
-  {
-    "name": "Criaturas Magicas Reales",
-    "desc": "Project that merges generative AI to create photorealistic magical creatures from literary descriptions.",
-    "image": "assets/img/criaturas.png",
-    "url": "https://glombardo.notion.site/Criaturas-M-gicas-Reales-f4cc86fa985a4f29a4dd19a432c9df6a",
-    "post": null,
-    "tags": ["Experimental", "LLM", "Text-to-image", "LangChain"]
-  },
-  {
-    "name": "Fundamental Analysis with One Click",
-    "desc": "Platform for quickly and easily conducting fundamental analysis of companies.",
-    "image": "assets/img/fast.png",
-    "url": "https://fast-fundamental-analysis.web.app/",
-    "post": "https://www.linkedin.com/pulse/an%C3%A1lisis-fundamental-con-un-clic-gianfranco-lombardo/",
-    "tags": ["Investments", "Personal Finance", "Angular", "Firebase"]
-  }
-]
+{
+  "projects": [
+    {
+      "name": "TuHuella NuestraHuella",
+      "desc": "Calculate how each of your actions affects your carbon footprint.",
+      "image": "assets/img/huella.png",
+      "url": "https://tuhuella-nuestrahuella.glombardo.xyz/",
+      "post": null,
+      "tags": [
+        "Social Impact",
+        "Carbon Footprint",
+        "Angular",
+        "Firebase"
+      ]
+    },
+    {
+      "name": "Tribuntu.org",
+      "desc": "NGO that aims to provide a technological platform for receiving donations to other NGOs.",
+      "image": "assets/img/tribuntu.png",
+      "url": "https://tribuntu.org/",
+      "post": null,
+      "tags": [
+        "Social Impact",
+        "NGOs",
+        "PHP",
+        "Wordpress"
+      ]
+    },
+    {
+      "name": "Criaturas Magicas Reales",
+      "desc": "Project that merges generative AI to create photorealistic magical creatures from literary descriptions.",
+      "image": "assets/img/criaturas.png",
+      "url": "https://glombardo.notion.site/Criaturas-M-gicas-Reales-f4cc86fa985a4f29a4dd19a432c9df6a",
+      "post": null,
+      "tags": [
+        "Experimental",
+        "LLM",
+        "Text-to-image",
+        "LangChain"
+      ]
+    },
+    {
+      "name": "Fundamental Analysis with One Click",
+      "desc": "Platform for quickly and easily conducting fundamental analysis of companies.",
+      "image": "assets/img/fast.png",
+      "url": "https://fast-fundamental-analysis.web.app/",
+      "post": "https://www.linkedin.com/pulse/an%C3%A1lisis-fundamental-con-un-clic-gianfranco-lombardo/",
+      "tags": [
+        "Investments",
+        "Personal Finance",
+        "Angular",
+        "Firebase"
+      ]
+    }
+  ],
+  "posts": [
+    {
+      "title": "Agents: a new level of abstraction in programming",
+      "image": "https://media.licdn.com/dms/image/D4D12AQEY9wyGYPiE2Q/article-cover_image-shrink_720_1280/0/1684228975875?e=2147483647&v=beta&t=4rJ7gIvtBrtfWpU3zw3OJtVaOiUUXbR18IG0mN09GfE",
+      "url": "https://www.linkedin.com/pulse/agents-nuevo-nivel-de-abstracci%2525C3%2525B3n-al-programar-gianfranco-lombardo",
+      "date": "2023-05-16"
+    },
+    {
+      "title": "Are you using ChatGPT correctly, though… 🤔 (Prompt engineering)",
+      "image": "https://media.licdn.com/dms/image/D4D12AQFqjs9FEZDcSA/article-cover_image-shrink_720_1280/0/1683019411988?e=1707350400&v=beta&t=vK6Gd_DOyDanfIbR3t4CNtsIttyoh8lZfqCniab7Ycw",
+      "url": "https://www.linkedin.com/pulse/estas-usando-bien-chatgpt-aun-que-prompt-engineering-lombardo",
+      "date": "2023-05-02"
+    },
+    {
+      "title": "Fundamental analysis with a click",
+      "image": "https://media.licdn.com/dms/image/C4E12AQEQS4foN0Cs4g/article-cover_image-shrink_720_1280/0/1651572556585?e=1707350400&v=beta&t=33ISF03k6ic_UHttXswQo0fUmX1Xbwmnvl_LPg_dHNs",
+      "url": "https://www.linkedin.com/pulse/an%25C3%25A1lisis-fundamental-con-un-clic-gianfranco-lombardo",
+      "date": "2022-05-03"
+    },
+    {
+      "title": "3 simple steps to detect gender disparity",
+      "image": "https://media.licdn.com/dms/image/C4D12AQGnsc03xidN6w/article-cover_image-shrink_423_752/0/1627295063463?e=1707350400&v=beta&t=qz_szwdSx0AV55VxPx548lG24qpV60qUU16cIRKNEv0",
+      "url": "https://www.linkedin.com/pulse/3-simples-pasos-para-detectar-disparidad-de-los-sexos-lombardo",
+      "date": "2021-07-30"
+    },
+    {
+      "title": "Didactic and pedagogical content?",
+      "image": "https://media.licdn.com/dms/image/C4D12AQE-MK1d5-pRWQ/article-cover_image-shrink_423_752/0/1626093944825?e=1707350400&v=beta&t=P4Fdp0R8-UP6lEp2o32XumCI9ZQtOWePuIaexkNmY8g",
+      "url": "https://www.linkedin.com/pulse/1-es-rom%25C3%25A1ntico-gianfranco-lombardo",
+      "date": "2021-07-12"
+    }
+  ]
+}
