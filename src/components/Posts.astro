@@ -1,0 +1,78 @@
+---
+interface Post {
+  title: string;
+  image: string;
+  url: string;
+  date: string;
+}
+
+const POSTS: Post[] = [
+  {
+    title: "Agents: a new level of abstraction in programming",
+    image:
+      "https://media.licdn.com/dms/image/D4D12AQEY9wyGYPiE2Q/article-cover_image-shrink_720_1280/0/1684228975875?e=2147483647&v=beta&t=4rJ7gIvtBrtfWpU3zw3OJtVaOiUUXbR18IG0mN09GfE",
+    url: "https://www.linkedin.com/pulse/agents-nuevo-nivel-de-abstracci%2525C3%2525B3n-al-programar-gianfranco-lombardo",
+    date: "2023-05-16",
+  },
+  {
+    title: "Are you using ChatGPT correctly, though… 🤔 (Prompt engineering)",
+    image:
+      "https://media.licdn.com/dms/image/D4D12AQFqjs9FEZDcSA/article-cover_image-shrink_720_1280/0/1683019411988?e=1707350400&v=beta&t=vK6Gd_DOyDanfIbR3t4CNtsIttyoh8lZfqCniab7Ycw",
+    url: "https://www.linkedin.com/pulse/estas-usando-bien-chatgpt-aun-que-prompt-engineering-lombardo",
+    date: "2023-05-02",
+  },
+  {
+    title: "Fundamental analysis with a click",
+    image:
+      "https://media.licdn.com/dms/image/C4E12AQEQS4foN0Cs4g/article-cover_image-shrink_720_1280/0/1651572556585?e=1707350400&v=beta&t=33ISF03k6ic_UHttXswQo0fUmX1Xbwmnvl_LPg_dHNs",
+    url: "https://www.linkedin.com/pulse/an%25C3%25A1lisis-fundamental-con-un-clic-gianfranco-lombardo",
+    date: "2022-05-03",
+  },
+  {
+    title: "3 simple steps to detect gender disparity",
+    image:
+      "https://media.licdn.com/dms/image/C4D12AQGnsc03xidN6w/article-cover_image-shrink_423_752/0/1627295063463?e=1707350400&v=beta&t=qz_szwdSx0AV55VxPx548lG24qpV60qUU16cIRKNEv0",
+    url: "https://www.linkedin.com/pulse/3-simples-pasos-para-detectar-disparidad-de-los-sexos-lombardo",
+    date: "2021-07-30",
+  },
+  {
+    title: "Didactic and pedagogical content?",
+    image:
+      "https://media.licdn.com/dms/image/C4D12AQE-MK1d5-pRWQ/article-cover_image-shrink_423_752/0/1626093944825?e=1707350400&v=beta&t=P4Fdp0R8-UP6lEp2o32XumCI9ZQtOWePuIaexkNmY8g",
+    url: "https://www.linkedin.com/pulse/1-es-rom%25C3%25A1ntico-gianfranco-lombardo",
+    date: "2021-07-12",
+  },
+];
+---
+
+<section>
+  <h2 class="text-center mb-5">Posts</h2>
+  <div id="posts-container">
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+<!-- Posts -->
+
+{
+    POSTS.map((post) => (
+        (
+            <div class="col">
+                <div class="card h-100 card-hover">
+                        <img src={post.image} class="card-img-top" alt={post.title}>
+                        <div class="card-body">
+                            <h5 class="card-title">{post.title}</h5>
+                        </div>
+                        <div class="card-footer py-3 d-flex justify-content-between align-items-center">
+                            <a href={post.url} class="btn btn-primary" target="_black" aria-label={`Read Post about ${post.title}`}>
+                                <i class="bi bi-eye-fill"></i> Read Post
+                            </a>
+                            <p class="text-muted mb-0">{post.date}</p>
+                        </div>
+            </div>
+        </div>
+        )
+    )
+    )
+}
+
+    </div>
+  </div>
+</section>

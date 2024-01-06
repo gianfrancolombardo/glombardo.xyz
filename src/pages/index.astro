@@ -1,0 +1,36 @@
+---
+import Posts from '../components/Posts.astro';
+import Projects from '../components/Projects.astro';
+import Footer from '../components/Footer.astro';
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Gianfranco Lombardo - Software Engineer | AI Engineer">
+	<section>
+        <div class="row align-items-center">
+            <div class="col-md-5 text-center text-md-end">
+                <img src="img/profile.jpg" alt="Foto de Gianfranco" class="rounded-circle" height="200">
+            </div>
+            <div class="col-md-7 text-center text-md-start mt-4 mt-md-0">
+                <h1 class="">Gianfranco Lombardo</h1>
+                <p class="text-muted mb-4">Software Engineer | AI Engineer</p>
+                <a href="/data/Gianfranco Lombardo - Resume.pdf" target="_blank" class="btn btn-primary me-1"><i class="bi bi-download me-2"></i> Resume</a>
+                <a href="https://www.linkedin.com/in/gianfranco-lombardo/" target="_blank" class="btn btn-outline-primary me-1"><i class="bi bi-linkedin"></i></a>
+                <a href="https://github.com/gianfrancolombardo" target="_blank" class="btn btn-outline-primary me-1"><i class="bi bi-github"></i></a>
+            </div>
+        </div>
+		<div class="icon-container">
+			<i class="bi bi-chevron-down"></i>
+		</div>
+    </section>
+
+    <Projects />
+
+    <Posts />
+
+    <Footer />
+</Layout>
+
+<style>
+	
+</style>

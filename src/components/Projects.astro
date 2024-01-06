@@ -1,0 +1,91 @@
+---
+interface Project {
+  name: string;
+  desc: string;
+  image: string;
+  url: string;
+  post: string | null;
+  tags: string[];
+}
+
+const PROJECTS: Project[] = [
+  {
+    name: "TuHuella NuestraHuella",
+    desc: "Calculate how each of your actions affects your carbon footprint.",
+    image: "img/huella.png",
+    url: "https://tuhuella-nuestrahuella.glombardo.xyz/",
+    post: null,
+    tags: ["Social Impact", "Carbon Footprint", "Angular", "Firebase"],
+  },
+  {
+    name: "Tribuntu.org",
+    desc: "NGO that aims to provide a technological platform for receiving donations to other NGOs.",
+    image: "img/tribuntu.png",
+    url: "https://tribuntu.org/",
+    post: null,
+    tags: ["Social Impact", "NGOs", "PHP", "Wordpress"],
+  },
+  {
+    name: "Criaturas Magicas Reales",
+    desc: "Project that merges generative AI to create photorealistic magical creatures from literary descriptions.",
+    image: "img/criaturas.png",
+    url: "https://glombardo.notion.site/Criaturas-M-gicas-Reales-f4cc86fa985a4f29a4dd19a432c9df6a",
+    post: null,
+    tags: ["Experimental", "LLM", "Text-to-image", "LangChain"],
+  },
+  {
+    name: "Fundamental Analysis with One Click",
+    desc: "Platform for quickly and easily conducting fundamental analysis of companies.",
+    image: "img/fast.png",
+    url: "https://fast-fundamental-analysis.web.app/",
+    post: "https://www.linkedin.com/pulse/an%C3%A1lisis-fundamental-con-un-clic-gianfranco-lombardo/",
+    tags: ["Investments", "Personal Finance", "Angular", "Firebase"],
+  },
+];
+---
+
+<section>
+  <h2 class="text-center mb-5">Projects</h2>
+  <div id="project-container">
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+      <!-- Projects -->
+
+      {
+        PROJECTS.map(
+          (project) => (
+            (
+              <div class="col">
+                <div class="card h-100 card-hover">
+                  <img src={project.image} class="card-img-top" alt={project.name} />
+                  <div class="card-body">
+                    <h5 class="card-title">{project.name}</h5>
+                    <p class="text-muted mb-5">{project.desc}</p>
+                    <ul class="list-inline">
+                      {project.tags.map((tag) => (
+                        <li class="list-inline-item">
+                          <span class="badge rounded-pill bg-secondary">
+                            {tag}
+                          </span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                  <div class="card-footer py-3">
+                    <a href={project.url} class="btn btn-primary" target="_black" >
+                      <i class="bi bi-arrow-up-right-circle" aria-label={`View project about ${project.name}`} />
+                      View Project
+                    </a>
+
+                    {(project.post) ? 
+                        <a href={project.post} class="btn btn-outline-primary" target="_black" aria-label={`Read Post about ${project.name}`} ><i class="bi bi-eye-fill"></i> Read Post</a>
+                        : ""}
+                  </div>
+                </div>
+              </div>
+            )
+          )
+        )
+      }
+    </div>
+  </div>
+</section>

@@ -1,11 +1,5 @@
-// Custom.scss
-// Option A: Include all of Bootstrap
 
-// Include any default variable overrides here (though functions won't be available)
-
-body {
-    font-family: var(--bs-font-monospace) !important;
-}
+// Command: sass --watch ./scss/custom.scss:./public/css/custom.css
 
 $primary: #6f42c1;
 
@@ -21,7 +15,9 @@ $container-max-widths: (
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
-// Then add additional custom code here
+body {
+    font-family: var(--bs-font-monospace) !important;
+}
 
 section:first-of-type {
     display: flex;

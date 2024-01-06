@@ -1,6 +1,20 @@
 {
+  "name": "v3",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
   "dependencies": {
+    "@astrojs/check": "^0.3.4",
+    "astro": "^4.1.1",
     "bootstrap": "^5.3.2",
-    "bootstrap-icons": "^1.11.2"
+    "bootstrap-icons": "^1.11.2",
+    "sass": "^1.69.7",
+    "typescript": "^5.3.3"
   }
 }

@@ -1,7 +1,5 @@
 {
   "projects": {
-    "main": "glombardo-585ca"
-  },
-  "targets": {},
-  "etags": {}
+    "default": "glombardo-585ca"
+  }
 }
