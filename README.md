@@ -1,157 +1,155 @@
-# Porfolio
+# Portfolio
 
+### Personal Information
+- **Name:** Gianfranco Lombardo
+- **Professional Title:** Software Engineer | AI Engineer
+- **Web:** [glombardo.xyz](https://glombardo.xyz)
+- **Email:** gianf.lombardo@gmail.com
 
-### Información Personal
-- **Nombre:** Gianfranco Lombardo
-- **Título Profesional:** Software Engineer | IA Engineer
-- **Teléfono:** (+34) 622 222 725
-- **Correo Electrónico:** gianf.lombardo@gmail.com
+### Summary
+Senior Full-stack developer with deep knowledge of the object-oriented programming paradigm and application design patterns. With over 12 years of experience in all life cycles of a project, from requirements analysis to production and maintenance. Developing AI models with high business impact. Very curious about new technologies, self-taught, proactive, and excellent at working and collaborating with people.
 
-### Resumen
-Senior Full-stack developer with deep knowledge of paradigm of object-oriented programming and application design patterns. With over 12 years of experience in all life cycles of a project, from the analysis of requirements to production and maintenance. Developing AI models with high business impact. Very curious about new technologies, autodidact, proactive, and very good at working and collaborating with people.
-
-### Experiencia Laboral
+### Work Experience
 - **Entain Group**
-  - **Cargo:** Software Engineer
-  - **Periodo:** 04/2014 - 10/2023
-  - **Logros:**
+  - **Position:** Software Engineer
+  - **Period:** 04/2014 - 10/2023
+  - **Achievements:**
     - Designed and implemented an AI model for spam image filtering, reducing workload by 19%.
     - Designed an AI model to predict next week's request volume, optimizing workforce allocation and resource utilization.
     - Designed and implemented an asynchronous system with microservices (Django, Angular, Celery, Redis) and an auto‑scaling cloud infrastructure, achieving a daily capacity of handling 100k tickets through CI/CD pipelines.
 
 - **Marfrig Group**
-  - **Cargo:** Software Developer
-  - **Periodo:** 04/2012 - 04/2014
-  - **Responsabilidades:**
+  - **Position:** Software Developer
+  - **Period:** 04/2012 - 04/2014
+  - **Responsibilities:**
     - Designed and developed modules and reports in ABAP for SAP, enhancing its functionality and efficiency.
     - Created satellite systems that seamlessly integrated with SAP, facilitating process automation.
     - Developed integration systems with factories to enhance the supply chain and synchronization.
 
-
-- **BPO Plataform**
-  - **Cargo:** Crawler Developer
-  - **Periodo:** 04/2011 - 04/2012
-  - **Responsabilidades:**
+- **BPO Platform**
+  - **Position:** Crawler Developer
+  - **Period:** 04/2011 - 04/2012
+  - **Responsibilities:**
     - Created autonomous agents for information capture and segmentation.
     - Developed management modules for information capture bots and their subsequent handling, optimizing processes.
 
 - **Optics Grandjeans**
-  - **Cargo:** Web Developer
-  - **Periodo:** 01/2011 - 12/2011
-  - **Responsabilidades:**
+  - **Position:** Web Developer
+  - **Period:** 01/2011 - 12/2011
+  - **Responsibilities:**
     - Developed high-impact web pages.
 
 - **Quebracho Software Factory**
-  - **Cargo:** Web Developer
-  - **Periodo:** 09/2010 - 12/2010
+  - **Position:** Web Developer
+  - **Period:** 09/2010 - 12/2010
 
-### Educación
+### Education
 - **Platzi**
-  - **Título:** Transfer Learning with Hugging Face
-  - **Año:** 2023
-
-- **Platzi**
-  - **Título:** Probability for Data Science
-  - **Año:** 2022
+  - **Title:** Transfer Learning with Hugging Face
+  - **Year:** 2023
 
 - **Platzi**
-  - **Título:** Descriptive Statistics for Data Science
-  - **Año:** 2022
+  - **Title:** Probability for Data Science
+  - **Year:** 2022
 
 - **Platzi**
-  - **Título:** Data Visualization for Business Intelligence
-  - **Año:** 2021
+  - **Title:** Descriptive Statistics for Data Science
+  - **Year:** 2022
 
 - **Platzi**
-  - **Título:** Math Foundations for Data Science
-  - **Año:** 2021
+  - **Title:** Data Visualization for Business Intelligence
+  - **Year:** 2021
 
 - **Platzi**
-  - **Título:** Software Architect Professional
-  - **Año:** 2019
+  - **Title:** Math Foundations for Data Science
+  - **Year:** 2021
+
+- **Platzi**
+  - **Title:** Software Architect Professional
+  - **Year:** 2019
 
 - **Linkedin Learning**
-  - **Título:** Python for Data Science
-  - **Año:** 2019
+  - **Title:** Python for Data Science
+  - **Year:** 2019
 
 - **Platzi**
-  - **Título:** Architecture with Celery
-  - **Año:** 2019
+  - **Title:** Architecture with Celery
+  - **Year:** 2019
 
 - **Linkedin Learning**
-  - **Título:** Unit Test
-  - **Año:** 2019
+  - **Title:** Unit Test
+  - **Year:** 2019
 
 - **Platzi**
-  - **Título:** Docker
-  - **Año:** 2019
+  - **Title:** Docker
+  - **Year:** 2019
 
 - **Platzi**
-  - **Título:** Usability and Accessibility
-  - **Año:** 2019
+  - **Title:** Usability and Accessibility
+  - **Year:** 2019
 
 - **Platzi**
-  - **Título:** UX Designs
-  - **Año:** 2019
+  - **Title:** UX Designs
+  - **Year:** 2019
 
 - **Platzi**
-  - **Título:** Django Advanced
-  - **Año:** 2019
+  - **Title:** Django Advanced
+  - **Year:** 2019
 
 - **Platzi**
-  - **Título:** Django Framework
-  - **Año:** 2019
+  - **Title:** Django Framework
+  - **Year:** 2019
 
 - **Platzi**
-  - **Título:** Typescript and Angular
-  - **Año:** 2018
+  - **Title:** Typescript and Angular
+  - **Year:** 2018
 
 - **Platzi**
-  - **Título:** Neural Networks with Python
-  - **Año:** 2018
+  - **Title:** Neural Networks with Python
+  - **Year:** 2018
 
 - **Platzi**
-  - **Título:** Machine Learning with Python
-  - **Año:** 2018
+  - **Title:** Machine Learning with Python
+  - **Year:** 2018
 
 - **University of Barcelona**
-  - **Título:** Master Degree in Project Management
-  - **Año:** 2018
+  - **Title:** Master Degree in Project Management
+  - **Year:** 2018
 
 - **Platzi**
-  - **Título:** Big Data and Data Science
-  - **Año:** 2017
+  - **Title:** Big Data and Data Science
+  - **Year:** 2017
 
 - **Platzi**
-  - **Título:** Agile methodologies and SCRUM
-  - **Año:** 2017
+  - **Title:** Agile methodologies and SCRUM
+  - **Year:** 2017
 
 - **Platzi**
-  - **Título:** Ruby on Rails
-  - **Año:** 2016
+  - **Title:** Ruby on Rails
+  - **Year:** 2016
 
 - **University of Alicante**
-  - **Título:** Web Developer
-  - **Año:** 2016
+  - **Title:** Web Developer
+  - **Year:** 2016
 
 - **Complutense University of Madrid**
-  - **Título:** Development of Mobile App
-  - **Año:** 2016
+  - **Title:** Development of Mobile App
+  - **Year:** 2016
 
 - **School of Industrial Organization**
-  - **Título:** Cloud computing
-  - **Año:** 2016
+  - **Title:** Cloud computing
+  - **Year:** 2016
 
 - **ORT University**
-  - **Título:** Postgraduate Ethical Hacking
-  - **Año:** 2015
+  - **Title:** Postgraduate Ethical Hacking
+  - **Year:** 2015
 
 - **ORT University**
-  - **Título:** Analyst Programmer
-  - **Año:** 2010
+  - **Title:** Analyst Programmer
+  - **Year:** 2010
 
-### Habilidades
-- **Lenguajes de Programación:** Python, PHP, C#
-- **Frameworks y Tecnologías:** Django, Laravel, Angular, Docker, Kubernetes
-- **Bases de Datos:** SQL, NoSQL
-- **Habilidades Personales:** Cooperación, Capacidad Adaptativa, Proactividad, Pensamiento Crítico
+### Skills
+- **Programming Languages:** Python, PHP, C#
+- **Frameworks and Technologies:** Django, Laravel, Angular, Docker, Kubernetes
+- **Databases:** SQL, NoSQL
+- **Personal Skills:** Collaboration, Adaptive Capacity, Proactivity, Critical Thinking
