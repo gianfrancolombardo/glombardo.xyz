@@ -6,7 +6,15 @@ interface Post {
   date: string;
 }
 
+// Estilos de imagen de Olimpia Zagnoli
+
 const POSTS: Post[] = [
+  {
+    title: "Sexism in the Media: How AI Detects What Sometimes Goes Unnoticed",
+    image: "img/posts/6.webp",
+    url: "https://www.linkedin.com/pulse/sexismo-en-los-medios-as%25C3%25AD-detecta-la-ia-lo-que-veces-pasa-lombardo-1b3of",
+    date: "2024-09-26",
+  },
   {
     title: "Agents: a new level of abstraction in programming",
     image: "img/posts/5.webp",
@@ -44,30 +52,31 @@ const POSTS: Post[] = [
   <h2 class="text-center mb-5">Posts</h2>
   <div id="posts-container">
     <div class="row row-cols-1 row-cols-md-2 g-4">
-<!-- Posts -->
+      <!-- Posts -->
 
-{
-    POSTS.map((post) => (
-        (
-            <div class="col">
-                <div class="card h-100 card-hover">
-                        <img src={post.image} class="card-img-top" alt={post.title}>
-                        <div class="card-body">
-                            <h5 class="card-title">{post.title}</h5>
-                        </div>
-                        <div class="card-footer py-3 d-flex justify-content-between align-items-center">
-                            <a href={post.url} class="btn btn-primary" target="_black" aria-label={`Read Post about ${post.title}`}>
-                                <i class="bi bi-eye-fill"></i> Read Post
-                            </a>
-                            <p class="text-muted mb-0">{post.date}</p>
-                        </div>
+      {
+        POSTS.map((post) => (
+          <div class="col">
+            <div class="card h-100 card-hover">
+              <img src={post.image} class="card-img-top" alt={post.title} />
+              <div class="card-body">
+                <h5 class="card-title">{post.title}</h5>
+              </div>
+              <div class="card-footer py-3 d-flex justify-content-between align-items-center">
+                <a
+                  href={post.url}
+                  class="btn btn-primary"
+                  target="_black"
+                  aria-label={`Read Post about ${post.title}`}
+                >
+                  <i class="bi bi-eye-fill" /> Read Post
+                </a>
+                <p class="text-muted mb-0">{post.date}</p>
+              </div>
             </div>
-        </div>
-        )
-    )
-    )
-}
-
+          </div>
+        ))
+      }
     </div>
   </div>
 </section>
