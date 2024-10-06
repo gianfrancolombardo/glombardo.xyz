@@ -19,7 +19,7 @@ const PROJECTS: Project[] = [
     desc: "AI-powered chatbot that interacts with multiple databases using natural language.",
     image: "img/chatwithdb.webp",
     url: "https://github.com/gianfrancolombardo/chat-with-db",
-    post: null,
+    post: "https://www.linkedin.com/pulse/chat-db-decisiones-basadas-en-datos-trav%C3%A9s-de-natural-lombardo-yb4vf",
     tags: ["Data Driven", "Agents", "LLM", "LangChain"],
   },
   {
@@ -85,7 +85,9 @@ const PROJECTS: Project[] = [
             (
               <div class="col">
                 <div class="card h-100 card-hover">
-                  <img src={project.image} class="card-img-top" alt={project.name} />
+                  <a href={project.url} target="_black">
+                    <img src={project.image} class="card-img-top" alt={project.name} />
+                  </a>
                   <div class="card-body">
                     <h5 class="card-title">{project.name}</h5>
                     <p class="text-muted mb-5">{project.desc}</p>
