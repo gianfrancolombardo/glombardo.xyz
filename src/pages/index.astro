@@ -1,55 +1,22 @@
 ---
-import Posts from '../components/Posts.astro';
-import Projects from '../components/Projects.astro';
-import Footer from '../components/Footer.astro';
-import Layout from '../layouts/Layout.astro';
+import Layout from "../layouts/Layout.astro";
+import Navbar from "../components/Navbar.astro";
+import Hero from "../components/Hero/Hero.astro";
+import Expertise from "../components/Expertise/Expertise.astro";
+import Work from "../components/Work/Work.astro";
+import Experience from "../components/Experience/Experience.astro";
+import Posts from "../components/Posts/Posts.astro";
+import Footer from "../components/Footer/Footer.astro";
 ---
 
-<Layout title="Gianfranco Lombardo - Staff Software Engineer | AI Engineer">
-	<section>
-        <div class="row align-items-center">
-            <div class="col-md-5 text-center text-md-end">
-                <img src="img/profile.webp" alt="Foto de Gianfranco" class="rounded-circle" height="200">
-            </div>
-            <div class="col-md-7 text-center text-md-start mt-4 mt-md-0">
-                <h1 class="">Gianfranco Lombardo</h1>
-                <p class="text-muted mb-4">Staff Software Engineer | AI Engineer</p>
-                <a href="/data/Gianfranco Lombardo - Resume.pdf" target="_blank" class="btn btn-primary me-1"><i class="bi bi-download me-2"></i> Resume</a>
-                <a href="https://www.linkedin.com/in/gianfranco-lombardo/" target="_blank" class="btn btn-outline-primary me-1"><i class="bi bi-linkedin"></i></a>
-                <a href="https://github.com/gianfrancolombardo" target="_blank" class="btn btn-outline-primary me-1"><i class="bi bi-github"></i></a>
-            </div>
-        </div>
-		<div class="icon-container">
-			<i class="bi bi-chevron-down"></i>
-		</div>
-    </section>
-
-    <!-- <section class="row justify-content-center">
-        <div class="card w-75 card-experience">
-            <div class="card-body">
-                <div class="row">
-                    <div class="col col-3 border-end text-center">
-                        <span class="h1 text-primary">+12</span>
-                        <small class="text-muted ">Of experience</small>
-                    </div>
-                    <div class="col">
-                        <i class="bi bi-award-fill"></i>
-                        Creating software solutions for companies around the world
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-
-    <Projects />
-
-    <Posts />
-
-    <Footer />
+<Layout title="Gianfranco Lombardo | Staff Software Engineer & AI Engineer">
+	<Navbar />
+	<main>
+		<Hero />
+		<Expertise />
+		<Work />
+		<Experience />
+		<Posts />
+	</main>
+	<Footer />
 </Layout>
-
-<style>
-	.card-experience .h1{
-        font-size: 4rem;
-    }
-</style>

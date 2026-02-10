@@ -1,0 +1,62 @@
+---
+import { NAV_ITEMS } from "../constants";
+import { Menu, X } from "lucide-react";
+---
+
+<header
+    class="fixed top-0 left-0 right-0 z-50 px-6 py-6 transition-all duration-300"
+    id="navbar"
+>
+    <nav
+        class="max-w-7xl mx-auto flex items-center justify-between bg-slate-900/50 backdrop-blur-md border border-slate-800 rounded-full px-6 py-3 shadow-lg"
+    >
+        {/* Logo */}
+        <a
+            href="#hero"
+            class="text-xl font-mono font-bold text-slate-100 hover:text-brand-accent transition-colors"
+        >
+            &lt; <span class="hidden sm:inline">G. Lombardo</span> /&gt;
+        </a>
+
+        {/* Desktop Menu */}
+        <ul class="hidden md:flex items-center gap-8">
+            {
+                NAV_ITEMS.map((item) => (
+                    <li>
+                        <a
+                            href={item.href}
+                            class="text-sm font-medium text-slate-300 hover:text-brand-accent transition-colors relative group"
+                        >
+                            {item.label}
+                            <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-brand-accent transition-all duration-300 group-hover:w-full" />
+                        </a>
+                    </li>
+                ))
+            }
+        </ul>
+
+        {
+            /* Mobile Menu Button (Placeholder for simplicity in this iteration) */
+        }
+        <button
+            class="md:hidden text-slate-300 hover:text-brand-accent"
+            aria-label="Menu"
+        >
+            <Menu className="w-6 h-6" />
+        </button>
+    </nav>
+</header>
+
+<script>
+    // Navbar scroll effect
+    const navbar = document.getElementById("navbar");
+    window.addEventListener("scroll", () => {
+        if (window.scrollY > 50) {
+            navbar?.classList.add("py-4");
+            navbar?.classList.remove("py-6");
+        } else {
+            navbar?.classList.add("py-6");
+            navbar?.classList.remove("py-4");
+        }
+    });
+</script>

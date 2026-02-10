@@ -1,0 +1,27 @@
+---
+import MagazineGrid from "./MagazineGrid";
+---
+
+<section id="posts" class="py-32 bg-slate-950 border-t border-slate-900/50">
+    <div class="px-6">
+        <div
+            class="max-w-7xl mx-auto mb-16 flex flex-col md:flex-row items-end justify-between gap-6"
+        >
+            <div>
+                <h2
+                    class="font-display text-4xl md:text-5xl font-bold text-slate-100 mb-4 tracking-tight"
+                >
+                    Insights & <span
+                        class="font-serif italic font-light text-slate-400"
+                        >Thoughts</span
+                    >
+                </h2>
+                <p class="text-slate-400">
+                    Analysis of the evolving tech landscape.
+                </p>
+            </div>
+        </div>
+
+        <MagazineGrid client:visible />
+    </div>
+</section>

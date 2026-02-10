@@ -1,0 +1,32 @@
+---
+import Scene3D from "./Scene3D";
+import StatusIndicator from "./StatusIndicator";
+import HeroText from "./HeroText";
+---
+
+<section
+    id="hero"
+    class="relative min-h-screen w-full overflow-hidden bg-brand-900"
+>
+    {/* Status Indicator (Always visible) */}
+    <StatusIndicator client:load />
+
+    {/* 3D Background Layer */}
+    <div class="absolute inset-0 z-0">
+        <Scene3D client:load />
+    </div>
+
+    {/* Content Layer */}
+    <HeroText client:load />
+
+    {/* Scroll Indicator */}
+    <div
+        class="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 opacity-50 animate-bounce"
+    >
+        <span class="text-[10px] font-mono tracking-widest text-slate-500"
+            >SCROLL_TO_SCAN</span
+        >
+        <div class="w-px h-8 bg-gradient-to-b from-brand-accent to-transparent">
+        </div>
+    </div>
+</section>
