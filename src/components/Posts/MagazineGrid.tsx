@@ -70,7 +70,7 @@ export default function MagazineGrid() {
                     </a>
                 ))}
 
-                <a href="https://linkedin.com/in/gianfranco-lombardo" target="_blank" rel="noopener" className="mt-auto p-4 text-center border border-dashed border-slate-800/80 rounded-xl text-slate-500 hover:text-brand-accent hover:border-brand-accent/30 transition-colors font-mono text-[10px] uppercase tracking-[0.2em]">
+                <a href="https://www.linkedin.com/in/gianfranco-lombardo/" target="_blank" rel="noopener" className="mt-auto p-4 text-center border border-dashed border-slate-800/80 rounded-xl text-slate-500 hover:text-brand-accent hover:border-brand-accent/30 transition-colors font-mono text-[10px] uppercase tracking-[0.2em]">
                     Read more on LinkedIn
                 </a>
             </div>

@@ -50,7 +50,7 @@ export default function HeroText() {
 
                 <div className="flex gap-4">
                     <SocialLink href="https://github.com/gianfrancolombardo" icon={Github} label="GitHub" />
-                    <SocialLink href="https://linkedin.com/in/gianfrancolombardo" icon={Linkedin} label="LinkedIn" />
+                    <SocialLink href="https://www.linkedin.com/in/gianfranco-lombardo/" icon={Linkedin} label="LinkedIn" />
                 </div>
             </motion.div>
         </div>
